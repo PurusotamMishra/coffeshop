@@ -1,0 +1,232 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="webthemez">
+  <title>Coffee Shop</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="{% static 'css/styles.css'%}" rel="stylesheet">
+  <link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet">
+  <link href="{% static 'css/animate-custom.css' %}" rel="stylesheet">
+  <script src="{% static 'js/jquery.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/modernizr.custom.js' %}"></script>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body data-target="#navbar-main">
+  <div id="navbar-main">
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+
+        <div class="navbar-header">
+          <div class="pull-left logo">
+            <a class="" href="#home"><img src="{% static 'img/logo.png' %}" /></a>
+          </div>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span
+              class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav pull-right">
+            <li><a href="#home-section">Welcome</a></li>
+            <li><a href="#services" >We Offer</a></li>
+            <li> <a href="#about"> Our Shop</a></li>
+            <li> <a href="#team"> Chef Team</a></li>
+            <li> <a href="#feedback" >Feedback</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ==== HEADERWRAP ==== -->
+  <div id="home-section">
+    <div id="headerwrap" name="home">
+      <header class="clearfix tb">
+        <div class="tb-cell text-center">
+          <i class="fa fa-heart-o icon"></i>
+          <h1>Coffee - Makes you Love</h1>
+          <p>A Lot Can Happen Over Coffee, Its Awesome!!! </p>
+          <!-- <a href="#portfolio" class="smoothScroll btn btn-lg">Today's Special</a> -->
+        </div>
+      </header>
+    </div>
+
+  </div>
+  <div class="div-pattern2"></div>
+  <!-- /headerwrap -->
+
+
+
+  <!-- ==== SERVICES ==== -->
+  <div id="services" name="services">
+    <div class="container">
+      <div class="row">
+        <h2 class="centered">WHAT WE OFFER</h2>
+        <hr>
+        <div class="col-lg-8 col-lg-offset-2">
+          <p class="large"></p>
+        </div>
+        <div class="col-lg-4 callout"> <img src="{% static 'img\slider_coffee.webp' %}" alt="" style="height:200px; width:250px;">
+          <h3><a href="menu/coffee">COFFEE</a></h3>
+        </div>
+        <div class="col-lg-4 callout"> <img src="{% static 'img\Slider_tea.jpg' %}" alt="" style="height:200px; width:250px;">
+          <h3><a href="menu/tea">TEA</a></h3>
+        </div>
+        <div class="col-lg-4 callout"> <img src="{% static 'img\Slider_cake.jpg' %}" alt="" style="height:200px; width:250px;">
+          <h3><a href="menu/cake">CAKES</a></h3>
+        </div>
+      </div>
+      <!-- row -->
+    </div>
+  </div>
+  
+  </section>
+  <!-- ==== ABOUT ==== -->
+  <div id="about" name="about">
+    <div class="container">
+      <div class="row white">
+        <h2 class="centered">Our Shop</h2>
+        <hr>
+        <div class="col-md-6"> <img class="img-responsive" src="{% static 'img/about/about1.jpg' %}" align=""> </div>
+        <div class="col-md-6">
+          <h3>Who we are</h3>
+          <p><b>Coffee is our soul.</b>
+            <br> 
+            <br>
+            Focusing on the minute; being meticulous over every detail. Everything we do is considered to give an
+            unparalleled experience of simplicity with substance.We believe coffee should be as simple or complex as you want it to be.
+            From the origin topography, to the water quality used in the end pour and everything in between, we obsess
+            on every possible variable. Our ambition is to serve great tasting coffee from the best beans we can source
+            each season from around the world.
+
+          </p>
+        </div>
+      </div>
+      <!-- row -->
+    </div>
+  </div>
+  <!-- container -->
+  <!-- ==== PORTFOLIO ==== -->
+
+  <!-- /container -->
+
+  <!-- ==== TEAM MEMBERS ==== -->
+  <div id="team" name="team">
+    <div class="container">
+      <div class="row centered">
+        <h2 class="centered">Meet Our Chef</h2>
+        <hr>
+        <div class="col-lg-8 col-lg-offset-2 centered">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad
+            perspiciatis, totam corporis ea, alias ut unde.</p>
+          <br />
+        </div>
+        <div class="col-lg-3 centered"> <img class="img img-circle" src="{% static 'img/team/team01.jpg' %}"
+            height="120px" width="120px" alt="">
+          <h4><strong>Vikas Khanna</strong></h4>
+          <a href="https://twitter.com/TheVikasKhanna?s=20&t=W4QF2MCxpFswPgmQ0EwtgA"><i class="fa fa-twitter"></i></a> <a href="https://www.facebook.com/VikasKhannaGroup"><i class="fa fa-facebook"></i></a> <a href="https://www.instagram.com/vikaskhannagroup/?hl=en"><i class="fa fa-instagram" ></i></a>
+        </div>
+        <div class="col-lg-3 centered"> <img class="img img-circle" src="{% static 'img/team/team02.jpg' %}"
+            height="120px" width="120px" alt="">
+          <h4><b>Kunal Kapur</b></h4>
+          <a href="https://twitter.com/ChefKunalKapur?s=20&t=ZCqfSQ24la6B7eUShTPJPA"><i class="fa fa-twitter"></i></a> <a href="https://www.facebook.com/thekunalkapur"><i class="fa fa-facebook"></i></a> <a href="https://www.instagram.com/chefkunal/?hl=en"><i class="fa fa-instagram"></i></a>
+        </div>
+        <div class="col-lg-3 centered"> <img class="img img-circle" src="{% static 'img/team/team03.jpg' %}"
+            height="120px" width="120px" alt="">
+          <h4><b>Shipra Khanna</b></h4>
+          <a href="https://twitter.com/ChefShipra?s=20&t=xkgIk-vnQU8eaQlkVnQ0oQ"><i class="fa fa-twitter"></i></a> <a href="https://www.facebook.com/Masterchefshipraa/"><i class="fa fa-facebook"></i></a> <a href="https://www.instagram.com/masterchefshiprakhanna/?hl=en"><i class="fa fa-instagram"></i></a>
+        </div>
+        <div class="col-lg-3 centered"> <img class="img img-circle" src="{% static 'img/team/team04.jpg' %}"
+            height="120px" width="120px" alt="">
+          <h4><b>Sanjeev Kapoor</b></h4>
+          <a href="https://twitter.com/SanjeevKapoor?s=20&t=wy1Aebvzi9IZ2-Af0jSYbg"><i class="fa fa-twitter"></i></a> <a href="https://www.facebook.com/SanjeevKapoorAcademy/"><i class="fa fa-facebook"></i></a> <a href="https://www.instagram.com/sanjeevkapoor/?hl=en"><i class="fa fa-instagram"></i></a>
+        </div>
+
+      </div>
+    </div>
+    <!-- row -->
+  </div>
+  <!-- container -->
+
+  <!-- ==== CONTACT ==== -->
+  <div id="feedback" name="contact">
+    <div class="container">
+      <div class="row">
+        <h2 class="centered">Get In Touch</h2>
+        <hr>
+
+      </div>
+      <div class="row">
+        <div class="col-md-7">
+          <strong>Please give us your feedback!</strong>
+          <form id="contact" method="post" class="form" role="form">
+            <div class="row">
+              {% csrf_token %}
+              <div class="col-md-12 form-group">
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
+              </div>
+              <div class="col-md-12 form-group">
+                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+              </div>
+              <div class="col-md-12 form-group">
+                <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+                <button class="btn btn-lg pull-left" type="submit">Send Message</button>
+              </div>
+            </div>
+
+          </form>
+          <!-- form -->
+        </div>
+        <div class="col-md-5">
+
+
+          <i class="fa fa-map-marker fa-2x"></i>
+          <strong>Coffee Shop</strong>
+          <p>IIT Bomaby<br>
+            Powai, Mumbai - 400 076</p>
+
+          <br />
+          <i class="fa fa-envelope-o fa-2x"></i>
+          <p>info@coffeeshop.com</p>
+
+          <br />
+          <i class="fa fa-phone fa-2x"></i>
+          <p> +1 235 123 1234</p>
+
+        </div>
+      </div>
+      <!-- row -->
+
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+
+  <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/smoothscroll.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/custom-scripts.js' %}"></script>
+
+</body>
+
+</html>
